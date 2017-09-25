@@ -1,5 +1,4 @@
 
-
 function squareRoot(a, b, c){
     const d = b * b - 4 * a * c;
     if (d > 0){
@@ -10,7 +9,6 @@ function squareRoot(a, b, c){
     } else if (d === 0) {
         const x = - b / (2 * a) ;
         return 'x = ' + x;
-        
     } else {
         return "No roots";
     }
